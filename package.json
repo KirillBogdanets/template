@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillBogdanets/template.git"
+  },
+  "scripts": {
+    "docs": "jsdoc ./framework/ -r -t ./node_modules/minami",
+    "webdriver:update": "webdriver-manager update"
+  },
+  "authors": [
+    "Kirill Bogdanets",
+    "Alexander Galichenko"
+  ],
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-protractor": "^4.1.0",
+    "cucumber-html-reporter": "2.0.3",
+    "protractor": "^5.3.0",
+    "protractor-cucumber-framework": "^4.2.0",
+    "yargs": "^9.0.1"
+  }
+}
