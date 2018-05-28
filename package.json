@@ -6,7 +6,6 @@
     "url": "git+https://github.com/KirillBogdanets/template.git"
   },
   "scripts": {
-    "docs": "jsdoc ./framework/ -r -t ./node_modules/minami",
     "webdriver:update": "webdriver-manager update"
   },
   "authors": [
